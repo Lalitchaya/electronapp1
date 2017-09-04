@@ -1,0 +1,22 @@
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build":"electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32 --icon=icons/app1.ico --prune=true --out=release "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "electron": "^1.7.5"
+  },
+  "dependencies": {
+    "asar": "^0.13.0",
+    "electron-packager": "^9.0.1",
+    "jquery": "^3.2.1"
+  }
+}
